@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.029 sec <<< FAILURE! - in TestSuite
+VerifyLogin(TestCase.TestNG)  Time elapsed: 1.011 sec  <<< FAILURE!
+java.lang.AssertionError: expected [http://13.126.125.146:3001/Login] but found [http://13.126.125.146:3001/]
+	at TestCase.TestNG.VerifyLogin(TestNG.java:47)
+
