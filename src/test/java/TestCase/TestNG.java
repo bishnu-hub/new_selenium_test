@@ -44,7 +44,7 @@ public class TestNG {
 		driver.findElement(By.name("click")).click();
 	    String X = driver.getCurrentUrl();
 		System.out.println(X);
-		Assert.assertEquals(X,"http://13.235.135.188:3001/Login");
+		Assert.assertEquals(X,"http://13.235.135.188:3001/");
   }
   
   @AfterClass
