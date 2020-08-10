@@ -16,7 +16,7 @@ public class TestNG {
 	public void launch() {
 		System.setProperty("webdriver.edge.driver","msedgedriver.exe");
 		driver = new EdgeDriver();
-		driver.get("http://13.126.125.146:3001/");
+		driver.get("http://13.235.135.188:3001/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
@@ -33,7 +33,7 @@ public class TestNG {
 	  
 		String X = driver.getCurrentUrl();
 		System.out.println(X);
-		Assert.assertEquals(X,"http://13.126.125.146:3001/");
+		Assert.assertEquals(X,"http://13.235.135.188:3001/");
   }
   
   @Test
@@ -44,7 +44,7 @@ public class TestNG {
 		driver.findElement(By.name("click")).click();
 	    String X = driver.getCurrentUrl();
 		System.out.println(X);
-		Assert.assertEquals(X,"http://13.126.125.146:3001/Login");
+		Assert.assertEquals(X,"http://13.235.135.188:3001/Login");
   }
   
   @AfterClass
